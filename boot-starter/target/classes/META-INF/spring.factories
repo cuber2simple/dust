@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration =\
+  o.c.gj.starter.filter.StubLoggingFilter,\
+  o.c.gj.starter.conf.MvcConf,\
+  o.c.gj.starter.conf.PasswordEncoderConf,\
+  o.c.gj.starter.conf.RedisConf,\
+  o.c.gj.starter.conf.SecurityConf,\
+  o.c.gj.starter.interceptor.ApiSignInterceptor,\
+  o.c.gj.starter.conf.SpringSessionConf,\
+  o.c.gj.starter.worker.TokenWorker

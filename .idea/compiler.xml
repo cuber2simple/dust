@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-def" />
+        <module name="boot-starter" />
+        <module name="global-feign" />
+        <module name="redis-wrap" />
+        <module name="static-tool" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-stater" target="1.8" />
+      <module name="spring-boot-sp-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e869db6-c26a-466a-a3af-b6560cdb5c4a" name="Default" comment="" />
+    <list default="true" id="8e869db6-c26a-466a-a3af-b6560cdb5c4a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/global-feign/target/" />
@@ -20,46 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TokenWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot-starter/src/main/java/o/c/gj/starter/worker/TokenWorker.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2369#2370#0" expanded="true" />
-                <element signature="e#2425#2426#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="239" column="5" lean-forward="true" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot-starter/src/main/resources/META-INF/spring.factories">
+      <file leaf-file-name="Oauth2Service.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base-def/src/main/java/o/c/gj/mapper/BaseMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4-sources.jar!/com/github/pagehelper/Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,6 +58,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -135,7 +114,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/Client.java" />
         <option value="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/GrantType.java" />
-        <option value="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java" />
         <option value="$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/RedisTokenService.java" />
         <option value="$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/impl/RedisTokenServiceImpl.java" />
         <option value="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/Authorize.java" />
@@ -144,6 +122,7 @@
         <option value="$PROJECT_DIR$/boot-starter/src/main/java/o/c/gj/starter/worker/TokenWorker.java" />
         <option value="$PROJECT_DIR$/boot-starter/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/base-def/src/main/java/o/c/gj/mapper/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java" />
       </list>
     </option>
   </component>
@@ -187,6 +166,7 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -201,6 +181,41 @@
               <item name="dust" type="b2602c69:ProjectViewProjectNode" />
               <item name="dust" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gj" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -209,7 +224,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Wor&#9;FILE&#9;file://D:/project/java/cuber/dust/boot-starter/src/main/java/o/c/gj/starter/worker/TokenWorker.java&#10;stub&#9;FILE&#9;file://D:/project/java/cuber/dust/boot-starter/src/main/java/o/c/gj/starter/filter/StubLoggingFilter.java" />
+    <property name="SearchEverywhereHistoryKey" value="Oauth&#9;FILE&#9;file://D:/project/java/cuber/dust/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java&#10;Client&#9;FILE&#9;file://D:/project/java/cuber/dust/global-feign/src/main/java/o/c/gj/gf/oauth2/Client.java&#10;Wor&#9;FILE&#9;file://D:/project/java/cuber/dust/boot-starter/src/main/java/o/c/gj/starter/worker/TokenWorker.java&#10;stub&#9;FILE&#9;file://D:/project/java/cuber/dust/boot-starter/src/main/java/o/c/gj/starter/filter/StubLoggingFilter.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -229,11 +244,11 @@
       <recent name="o.c.gj.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\java\cuber\dust" />
       <recent name="D:\project\java\cuber\dust\global-feign\src\main\java\o\c\gj\gf\oauth2" />
       <recent name="D:\project\java\cuber\dust\boot-starter\src\main\resources" />
       <recent name="D:\project\java\cuber\dust\global-feign\src\main\java\o\c\gj\gf\sso" />
       <recent name="D:\project\java\cuber\dust\boot-starter\src\main\java\o\c\gj\starter\conf" />
-      <recent name="D:\project\java\cuber\dust\static-tool\src\main\java\o\c\gj\st\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,18 +336,19 @@
       <workItem from="1542264951921" duration="6627000" />
       <workItem from="1542377665412" duration="4819000" />
       <workItem from="1542703360068" duration="4033000" />
-      <workItem from="1542812440343" duration="1970000" />
+      <workItem from="1542812440343" duration="6016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56001000" />
+    <option name="totallyTimeSpent" value="60047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10053619" side_tool="true" visible="true" weight="0.2065527" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10053619" side_tool="true" visible="true" weight="0.23537803" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1266756" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -349,10 +365,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1923077" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.89946383" visible="true" weight="0.2065527" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.89946383" visible="true" weight="0.23537803" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -379,13 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/sso/UserGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/json/GsonHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -547,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-def/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -594,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -686,18 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-starter/src/main/java/o/c/gj/starter/worker/TokenWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot-starter/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -719,6 +702,39 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-starter/src/main/java/o/c/gj/starter/worker/TokenWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2369#2370#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="239" column="5" lean-forward="true" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>

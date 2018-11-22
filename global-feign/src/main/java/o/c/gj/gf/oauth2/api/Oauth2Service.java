@@ -7,12 +7,14 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 只有内部系统才可以调用
  */
 @FeignClient("oauth2")
 @RequestMapping("/api")
+@RestController
 public interface Oauth2Service {
 
     @PostMapping("/check_token")

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e869db6-c26a-466a-a3af-b6560cdb5c4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/RedisWrapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/RedisWrapService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,20 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/Client.java">
+      <file leaf-file-name="getServerId.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/resources/lua/getServerId.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="239" column="5" lean-forward="true" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Oauth2Service.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java">
+      <file leaf-file-name="RedisWrapServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/impl/RedisWrapServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="524">
+              <caret line="62" column="50" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisWrapService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/RedisWrapService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/base-def/src/main/java/o/c/gj/util/HardwareUtils.java" />
         <option value="$PROJECT_DIR$/base-def/src/main/java/o/c/gj/cons/CustomConstant.java" />
         <option value="$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/impl/RedisWrapServiceImpl.java" />
         <option value="$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/json/GsonHolder.java" />
@@ -123,6 +132,7 @@
         <option value="$PROJECT_DIR$/boot-starter/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/base-def/src/main/java/o/c/gj/mapper/BaseMapper.java" />
         <option value="$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java" />
+        <option value="$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/RedisWrapService.java" />
       </list>
     </option>
   </component>
@@ -172,7 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,43 +194,77 @@
             <path>
               <item name="dust" type="b2602c69:ProjectViewProjectNode" />
               <item name="dust" type="462c0819:PsiDirectoryNode" />
-              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dust" type="b2602c69:ProjectViewProjectNode" />
               <item name="dust" type="462c0819:PsiDirectoryNode" />
-              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dust" type="b2602c69:ProjectViewProjectNode" />
               <item name="dust" type="462c0819:PsiDirectoryNode" />
-              <item name="base-def" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dust" type="462c0819:PsiDirectoryNode" />
-              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dust" type="b2602c69:ProjectViewProjectNode" />
               <item name="dust" type="462c0819:PsiDirectoryNode" />
-              <item name="base-def" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dust" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-wrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,20 +380,25 @@
       <workItem from="1542264951921" duration="6627000" />
       <workItem from="1542377665412" duration="4819000" />
       <workItem from="1542703360068" duration="4033000" />
-      <workItem from="1542812440343" duration="6016000" />
+      <workItem from="1542812440343" duration="6334000" />
+      <workItem from="1542982389345" duration="1408000" />
+      <workItem from="1542986318348" duration="1414000" />
+      <workItem from="1542990622353" duration="2104000" />
+      <workItem from="1543196234822" duration="759000" />
+      <workItem from="1544068093772" duration="1679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60047000" />
+    <option name="totallyTimeSpent" value="67729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10053619" side_tool="true" visible="true" weight="0.23537803" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1266756" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1038874" side_tool="true" visible="true" weight="0.21398003" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.113270774" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -368,10 +417,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1923077" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.89946383" visible="true" weight="0.23537803" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8961126" visible="true" weight="0.21398003" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16152816" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,34 +445,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/json/GsonHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/util/RespUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/util/Rsa4JsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/util/SignUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/util/TransformUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -507,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="279" column="12" lean-forward="true" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/ServletRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -563,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/impl/RedisWrapServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static-tool/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -607,13 +615,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/impl/RedisTokenServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/RedisWrapService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot-starter/src/main/java/o/c/gj/starter/conf/MvcConf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -640,13 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="77" column="59" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/id/IdsST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -699,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,25 +707,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="239" column="5" lean-forward="true" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+        <state relative-caret-position="3402">
+          <caret line="239" column="5" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global-feign/src/main/java/o/c/gj/gf/oauth2/api/Oauth2Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-tool/src/main/java/o/c/gj/st/id/IdsST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="124" column="36" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/resources/lua/lock.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/resources/lua/getTime.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/resources/lua/nextval.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/resources/lua/getServerId.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/impl/RedisWrapServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="62" column="50" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-wrap/src/main/java/o/c/gj/redis/RedisWrapService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>

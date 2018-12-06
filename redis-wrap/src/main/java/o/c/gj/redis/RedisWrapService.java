@@ -17,7 +17,7 @@ public interface RedisWrapService {
     /**
      *  使用lua
      *  1. 调用setnx 返回成功 并设置过期值
-     *  2. timeout 是毫秒
+     *  2. timeout 是秒
      * @param key
      * @param content
      * @param timeout
